@@ -1,0 +1,1 @@
+Inspired by https://www.airbnb.fr/host/homes

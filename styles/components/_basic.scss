@@ -1,0 +1,38 @@
+// buttons basic style
+.btn-basic {
+    padding: .5rem 1rem;
+
+    border: 1px solid;
+    border-radius: .6rem;
+}
+
+// icons 
+.icon-basic {
+    width: 1.5rem;
+}
+
+.search-input {
+    padding: 1rem 3rem;
+
+    border: 1px solid;
+    border-radius: 3rem;
+}
+
+.top-border {
+    border-top: 1px solid #b0b0b0;
+}
+
+// .custom-range {
+//   &::-webkit-slider-runnable-track {
+//     background-color: #DDDDDD; // après curseur dans WebKit
+//   }
+//   &::-webkit-slider-thumb {
+//     background-color: #000; // curseur dans WebKit
+//   }
+//   &::-moz-range-thumb {
+//     background-color: #000; // avant curseur dans Gecko
+//   }
+//   &::-moz-range-track {
+//     background-color: #DDDDDD; // après curseur dans Gecko
+//   }
+// }

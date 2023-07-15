@@ -1,0 +1,83 @@
+footer {
+    padding: 4rem 0;
+
+    background: $second-bg-color;
+    border: 1px solid blue;
+
+    .container {
+        border-top: 1px solid #bfbfbf;
+
+        .box {
+            display: flex;
+            margin: 0 $body-item-marge;
+
+            ul {
+                li {
+                    a {
+                        font-size: $font-size * 0.5;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box1 {
+            display: flex;
+            gap: 1rem;
+            margin: 3.5rem $body-item-marge 0;
+
+            border: 1px solid red;
+
+            .item {
+                margin-left: 2rem;
+                ul {
+                    font-size: $font-size * 0.6;
+    
+                    li {
+                        line-height: $base-line-height * 2.5;
+                    }
+                }
+            }
+
+            .item:first-child {
+                margin-left: 0rem;
+            }
+        }
+
+        .box2 {
+            position: relative;
+            padding: 2.5rem 0 3rem;
+
+            font-size: $font-size * 0.7;
+
+            border: 1px solid blue;
+
+            .about-enterprise, 
+            .social-media {
+                display: flex;
+                flex-direction: row;
+                margin-left: 3rem;
+
+                border: 1px solid red;
+            }
+
+            .about-enterprise {
+                gap: 1rem; 
+            }
+
+            .social-media {
+                position: absolute;
+                right: 0;
+                gap: 2rem;
+
+                a {
+                    font-size: $font-size * 0.4;
+                }
+            }
+        }
+    }
+}

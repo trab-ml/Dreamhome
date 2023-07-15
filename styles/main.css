@@ -1,0 +1,506 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-basic, header .container nav .right-side .start-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-radius: 0.6rem;
+}
+
+.icon-basic, header .container nav .right-side .home__add-icon {
+  width: 1.5rem;
+}
+
+.search-input, .main .item1 .txt form input[type=search] {
+  padding: 1rem 3rem;
+  border: 1px solid;
+  border-radius: 3rem;
+}
+
+.top-border {
+  border-top: 1px solid #b0b0b0;
+}
+
+/* piste */
+/* curseur */
+/* avant le curseur */
+/* après le curseur */
+body {
+  line-break: strict;
+  font-size: 1.5rem;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1rem;
+}
+body h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+body h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+body h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+body h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+body h6 {
+  font-size: 1rem;
+  font-weight: 550;
+  line-height: 1.5rem;
+}
+body a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #000;
+}
+body a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+header .container {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  margin: 0 18rem;
+  border: 1px solid red;
+}
+header .container nav {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .right-side {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+header .container nav .right-side .txt {
+  font-size: 1.05rem;
+}
+header .container nav .right-side .start-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  gap: 1rem;
+}
+header .container nav .right-side a {
+  opacity: 0.9;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #ff385c;
+}
+header .container nav .right-side a:hover {
+  opacity: 1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+}
+.main .item1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 18rem;
+  padding: 7rem 4rem;
+}
+.main .item1 .txt {
+  width: 50%;
+  text-align: center;
+}
+.main .item1 .txt h1 span {
+  display: block;
+}
+.main .item1 .txt h1 span:nth-child(1) {
+  color: #ff385c;
+}
+.main .item1 .txt h1 span:nth-child(2) {
+  color: #222222;
+}
+.main .item1 .txt p {
+  line-height: 2rem;
+}
+.main .item1 .txt .info {
+  font-size: 0.9rem;
+}
+.main .item1 .txt .info a {
+  font-size: 0.9rem;
+}
+.main .item1 .txt .price {
+  line-height: 8rem;
+  font-weight: 600;
+  font-size: 4.5rem;
+  letter-spacing: 0.1rem;
+}
+.main .item1 .txt form input {
+  width: 25rem;
+}
+.main .item1 .txt form input[type=range] {
+  margin-top: 0.75rem;
+  line-height: 5rem;
+  border-radius: 5px;
+}
+.main .item1 .txt form p {
+  margin: 0 0 1rem;
+  line-height: 1;
+}
+.main .item1 .txt form a {
+  font-size: 0.75rem;
+  color: #717171;
+}
+.main .item2 {
+  width: 100%;
+  padding: 0 18rem;
+}
+.main .item2 .box {
+  position: relative;
+  width: 100%;
+  padding: 3rem 0;
+  text-align: center;
+  border: 1px solid green;
+}
+.main .item2 .box .img-box {
+  width: 100%;
+  margin: 2rem 0;
+}
+.main .item2 .box .img-box #community-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .item2 .txt-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: left;
+  padding: 0 3rem;
+}
+.main .item2 .txt-box h5 {
+  margin-bottom: 0.5rem;
+}
+.main .item2 .txt-box p {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  color: #717171;
+}
+.main .item3 {
+  padding: 0 18rem;
+}
+.main .item3 .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  border: 1px solid blue;
+}
+.main .item3 .box h2 {
+  text-align: center;
+}
+.main .item3 .box .comparason-tab {
+  width: 40rem;
+  margin: 4rem auto 0;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  color: #717171;
+}
+.main .item3 .box .comparason-tab thead th {
+  padding-bottom: 1.5rem;
+  font-size: 1.35rem;
+  color: #000;
+}
+.main .item3 .box .comparason-tab tbody tr th:nth-child(1) {
+  text-align: left;
+}
+.main .item3 .box .comparason-tab tbody tr.sub-title th {
+  padding: 2rem 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #000;
+}
+.main .item3 .box .comparason-tab tbody tr.protection-item {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+}
+.main .item3 .box .comparason-tab tbody tr.protection-item th {
+  padding: 2rem 0;
+}
+.main .item3 .box .comparason-tab tbody tr td {
+  padding-bottom: 2rem;
+  letter-spacing: 0.1rem;
+}
+.main .item3 .box .comparason-tab tbody tr td:nth-child(2),
+.main .item3 .box .comparason-tab tbody tr td:nth-child(3) {
+  padding: 0 4rem;
+}
+.main .item3 .box .comparason-tab tbody tr:last-child td {
+  padding-top: 2rem;
+}
+.main .item3 .box .ctr {
+  height: 5rem;
+  text-align: center;
+}
+.main .item3 .box .ctr .more-info-btn {
+  width: 10rem;
+  text-decoration: none;
+}
+.main .item3 .box .ctr .more-info-btn:hover {
+  background: #f0f0f0;
+}
+.main .item4 {
+  padding: 0 18rem;
+  background: #eaeaea;
+}
+.main .item4 .questions-ctn {
+  display: flex;
+  margin-top: 5rem;
+}
+.main .item4 .questions-ctn .left-side,
+.main .item4 .questions-ctn .right-side {
+  width: 50%;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  top: 0;
+  font-size: 1.2rem;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu h6:after {
+  content: "❯";
+  display: inline;
+  margin-left: 1rem;
+  padding-top: 0.1rem;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu .sub-menu {
+  width: 100%;
+  max-height: 0;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  overflow: hidden;
+  line-height: 1.5rem;
+  border-radius: 2px;
+  color: #717171;
+  background-color: white;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu:hover > h6:after {
+  animation: rotateArrow 0.2s linear forwards;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu:hover .sub-menu {
+  animation: showSubMenu 1s forwards;
+}
+.main .item4 .questions-ctn .right-side .item ul .scrolling-menu.top-border {
+  padding-top: 1.5rem;
+}
+@keyframes rotateArrow {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+@keyframes showSubMenu {
+  0% {
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0);
+  }
+  30% {
+    padding: 0.7rem 0 0.7rem 0.7rem;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    padding: 0.7rem 0 0.7rem 0.7rem;
+    max-height: 15em;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+.main .item5 {
+  padding: 0 18rem;
+  background: #eaeaea;
+}
+.main .item5 .box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  border: 1px solid green;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.main .item5 .box .img-box {
+  width: 100%;
+}
+.main .item5 .box .img-box #community-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .item5 .box .img-box,
+.main .item5 .box .txt-box {
+  width: 50%;
+  height: 100%;
+}
+.main .item5 .box .txt-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .item5 .box .txt-box .txt-box__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.05rem;
+  color: #717171;
+}
+.main .item5 .box .txt-box .txt-box__content p {
+  margin: 1rem 0;
+}
+.main .item5 .box .txt-box .txt-box__content a {
+  position: relative;
+  width: 12rem;
+  display: block;
+  left: calc(50% - 6rem);
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+footer {
+  padding: 4rem 0;
+  background: #eaeaea;
+  border: 1px solid blue;
+}
+footer .container {
+  border-top: 1px solid #bfbfbf;
+}
+footer .container .box {
+  display: flex;
+  margin: 0 18rem;
+}
+footer .container .box ul li a {
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+footer .container .box ul li a:hover {
+  text-decoration: underline;
+}
+footer .container .box1 {
+  display: flex;
+  gap: 1rem;
+  margin: 3.5rem 18rem 0;
+  border: 1px solid red;
+}
+footer .container .box1 .item {
+  margin-left: 2rem;
+}
+footer .container .box1 .item ul {
+  font-size: 0.9rem;
+}
+footer .container .box1 .item ul li {
+  line-height: 2.5rem;
+}
+footer .container .box1 .item:first-child {
+  margin-left: 0rem;
+}
+footer .container .box2 {
+  position: relative;
+  padding: 2.5rem 0 3rem;
+  font-size: 1.05rem;
+  border: 1px solid blue;
+}
+footer .container .box2 .about-enterprise,
+footer .container .box2 .social-media {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  border: 1px solid red;
+}
+footer .container .box2 .about-enterprise {
+  gap: 1rem;
+}
+footer .container .box2 .social-media {
+  position: absolute;
+  right: 0;
+  gap: 2rem;
+}
+footer .container .box2 .social-media a {
+  font-size: 0.6rem;
+}/*# sourceMappingURL=main.css.map */
