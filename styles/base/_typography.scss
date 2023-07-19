@@ -1,48 +1,52 @@
-body {
-    line-break: strict;
+html {
+    font-size: 1rem;
 
-    font-size: $font-size;
-    font-family: $font-family;
-    line-height: $base-line-height;
-
-    h1 {
-        font-size: 3rem;
-        font-weight: 600;
-        line-height: $base-line-height * 3.5;
-    }
-
-    h2 {
-        font-size: 2.4rem;
-        font-weight: 600;
-        line-height: $base-line-height * 2.5;
-    }
+    body {
+        line-break: strict;
     
-    h4 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        line-height: $base-line-height * 1.8;
-    }
+        font-size: $font-size;
+        font-family: $font-family;
+        line-height: $base-line-height;
     
-    h5 {
-        font-size: 1.2rem;
-        font-weight: 600;
-        line-height: $base-line-height * 1.5;
-    }
-    
-    h6 {
-        font-size: 1rem;
-        font-weight: 550;
-        line-height: $base-line-height * 1.5;
-    }
-
-    a {
-        font-size: $font-size*.8;
-        text-decoration: underline;
-        color: $link-color;
-
-        &:hover {
-            cursor: pointer;
-            opacity: .8;
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: $base-line-height * 3.5;
         }
-    }   
+    
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            line-height: $base-line-height * 2.5;
+        }
+        
+        h4 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: $base-line-height * 1.8;
+        }
+        
+        h5 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: $base-line-height * 1.5;
+        }
+        
+        h6 {
+            font-size: 1rem;
+            font-weight: 550;
+            line-height: $base-line-height * 1.5;
+        }
+    
+        a {
+            font-size: $font-size*.8;
+            text-decoration: underline;
+            color: $link-color;
+    
+            &:hover {
+                cursor: pointer;
+                opacity: .8;
+            }
+        }   
+    }
 }

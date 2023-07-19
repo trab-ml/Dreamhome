@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Dreamhome</title>
         <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
     </head>
     <body>
         <header>
@@ -81,7 +83,9 @@
                     </form>
                 </div>
 
-                <div class="map">Dreamhome smart map</div>
+                <div id="map" class="map">
+                    <script src="index.js"></script>
+                </div>
             </div>
 
             <div class="item item2">
@@ -940,21 +944,37 @@
                     </section>
                 </div>
                 <div class="box box2">
-                    <div>
-                        © 2023 Dreamhome, Inc. | Trab
-                    </div>
+                    <div class="info">© 2023 Dreamhome Inc. | Trab</div>
                     <ul class="about-enterprise">
                         <li><a href="#" alt="some link">Confidentialité</a></li>
-                        <li><a href="#" alt="some link">Conditions générales</a></li>
+                        <li>
+                            <a href="#" alt="some link">Conditions générales</a>
+                        </li>
                         <li><a href="#" alt="some link">Plan du site</a></li>
-                        <li><a href="#" alt="some link">Fonctionnement du site</a></li>
-                        <li><a href="#" alt="some link">Infos sur l'entreprise</a></li>
+                        <li>
+                            <a href="#" alt="some link"
+                                >Fonctionnement du site</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" alt="some link"
+                                >Infos sur l'entreprise</a
+                            >
+                        </li>
                     </ul>
                     <ul class="social-media">
-                        <li><a href="#" alt="some link">Français (FR) £ EUR</a></li>
-                        <li><a href="#" alt="some link">socialMedia icon</a></li>
-                        <li><a href="#" alt="some link">socialMedia icon</a></li>
-                        <li><a href="#" alt="some link">socialMedia icon</a></li>
+                        <li>
+                            <a href="#" alt="some link">Français (FR) £ EUR</a>
+                        </li>
+                        <li>
+                            <a href="#" alt="some link"><img src="assets/imgs/insta.svg" alt="insta" style="--bg: #1DA1F2;"></a>
+                        </li>
+                        <li>
+                            <a href="#" alt="some link"><img src="assets/imgs/linkedin.svg" alt="linkedin" style="--bg: #1DA1F2;"></a>
+                        </li>
+                        <li>
+                            <a href="#" alt="some link"><img src="assets/imgs/twitter.svg" alt="twitter" style="--bg: #1DA1F2;"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
